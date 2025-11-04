@@ -1,7 +1,7 @@
 {
-  "name": "Login / Cadastro Estrutura",
-  "short_name": "Estrutura",
-  "start_url": "/APP/index.html",
+  "name": "Hora Extra Detroit",
+  "short_name": "Hora Extra",
+  "start_url": "/terceiros/index.html",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
