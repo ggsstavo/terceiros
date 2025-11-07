@@ -1182,11 +1182,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     const day = d.getDay(); // 0=Sun,1=Mon,...6=Sat
     // Mon-Thu -> 17:00 - 18:00 (1..4)
-    if(day >= 1 && day <= 4) return '17:00        18:00';
+    if(day >= 1 && day <= 4) return ' 17:00        18:00';
     // Fri -> 16:00 - 18:00 (5)
-    if(day === 5) return '16:00        18:00';
+    if(day === 5) return ' 16:00        18:00';
     // Sat -> 07:00 - 16:00 (6)
-    if(day === 6) return '07:00        16:00';
+    if(day === 6) return ' 07:00        16:00';
     // Sun or other -> no schedule (empty)
     return '';
   }
